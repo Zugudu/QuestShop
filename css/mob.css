@@ -1,0 +1,13 @@
+#menu-label{
+	display: block;
+}
+
+#menu-content{
+	display: none;
+}
+#menu-content .w3-bar-item{
+	width: 100%;
+}
+#menu:checked ~ #menu-content{
+	display: block !important;
+}
