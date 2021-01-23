@@ -1,1 +1,1 @@
-gunicorn questshop.wsgi --log-file -
+web: gunicorn questshop.wsgi --log-file -
