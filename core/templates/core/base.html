@@ -13,7 +13,7 @@
 <body>
 	<div class="w3-bar w3-black w3-margin-bottom">
 		{% if user.is_authenticated %}
-			<span class="w3-bar-item">Рахунок: {{ user.money }} <i class="fas fa-coins"></i></span>
+			<span class="w3-bar-item">{% trans "Money" %}: {{ user.money }} <i class="fas fa-coins"></i></span>
 		{% endif %}
 
 		<label for="menu" class="w3-bar-item w3-button w3-right" id="menu-label">

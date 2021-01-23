@@ -98,8 +98,8 @@ AUTH_USER_MODEL = 'core.User'
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'ua'
-LANGUAGES = [('ua', 'Ukrainian'), ('en', 'English')]
+LANGUAGE_CODE = 'uk'
+LANGUAGES = [('uk', 'Ukrainian'), ('en', 'English')]
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )

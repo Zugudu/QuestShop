@@ -3,31 +3,71 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-23 16:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: Ukrainian\n"
+"POT-Creation-Date: 2021-01-23 20:51+0200\n"
+"PO-Revision-Date: 2021-01-23 21:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: .\core\admin.py:10 .\core\admin.py:13
 msgid "In-game info"
 msgstr "Ігрова інформація"
 
+#: .\core\forms.py:10
+msgid "Username on server"
+msgstr "Ім'я користувача на сервері"
+
+#: .\core\forms.py:17
+msgid "Password from store"
+msgstr "Пароль від магазину"
+
+#: .\core\models.py:7
+msgid "Bill"
+msgstr "Рахунок"
+
+#: .\core\models.py:11
+msgid "Artifact name"
+msgstr "Назва артефакту"
+
+#: .\core\models.py:12
+msgid "Artifact price"
+msgstr "Ціна артефакту"
+
+#: .\core\models.py:13
+msgid "Artifact picture"
+msgstr "Артефакт картини"
+
+#: .\core\models.py:14
+msgid "Artifact description"
+msgstr "Опис артефакту"
+
+#: .\core\templates\core\base.html:16
+msgid "Money"
+msgstr "Рахунок"
+
 #: .\core\templates\core\base.html:25
 msgid "Logout"
 msgstr "Вийти"
 
-#: .\core\templates\core\base.html:27
+#: .\core\templates\core\base.html:27 .\core\templates\core\login.html:7
 msgid "Login"
+msgstr "Увійти"
+
+#: .\core\templates\core\login.html:9
+msgid "Password"
+msgstr "Пароль"
+
+#: .\core\templates\core\login.html:11
+msgid "Sign in"
 msgstr "Увійти"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
@@ -36,364 +76,325 @@ msgstr "Повідомлення"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:7
 msgid "Site Maps"
-msgstr ""
+msgstr "Карти сайтів"
 
 #: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
 msgid "Static Files"
-msgstr ""
+msgstr "Статичні файли"
 
 #: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
 msgid "Syndication"
-msgstr ""
+msgstr "Синдикації"
 
 #: .\venv\Lib\site-packages\django\core\paginator.py:48
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "Цей номер сторінки не є цілим числом"
 
 #: .\venv\Lib\site-packages\django\core\paginator.py:50
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "Цей номер сторінки менший за 1"
 
 #: .\venv\Lib\site-packages\django\core\paginator.py:55
 msgid "That page contains no results"
-msgstr ""
+msgstr "Ця сторінка не містить результатів"
 
 #: .\venv\Lib\site-packages\django\core\validators.py:20
 msgid "Enter a valid value."
-msgstr ""
+msgstr "Введіть припустиме значення."
 
-#: .\venv\Lib\site-packages\django\core\validators.py:91
-#: .\venv\Lib\site-packages\django\forms\fields.py:671
+#: .\venv\Lib\site-packages\django\core\validators.py:91 .\venv\Lib\site-packages\django\forms\fields.py:671
 msgid "Enter a valid URL."
-msgstr ""
+msgstr "Введіть припустиму URL-адресу."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:145
 msgid "Enter a valid integer."
-msgstr ""
+msgstr "Введіть припустиме ціле число."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:156
 msgid "Enter a valid email address."
-msgstr ""
+msgstr "Введіть припустиму адресу електронної пошти."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 #: .\venv\Lib\site-packages\django\core\validators.py:230
-msgid ""
-"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr ""
+msgid "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr "Введіть припустимий рядок, що складається з букв, цифр, підкреслень або дефісів."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:237
-msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
-msgstr ""
+msgid "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or hyphens."
+msgstr "Введіть припустимий рядок, що складається з букв, цифр, символів підкреслення або дефісів у кодуванні Юнікод."
 
-#: .\venv\Lib\site-packages\django\core\validators.py:246
-#: .\venv\Lib\site-packages\django\core\validators.py:266
+#: .\venv\Lib\site-packages\django\core\validators.py:246 .\venv\Lib\site-packages\django\core\validators.py:266
 msgid "Enter a valid IPv4 address."
-msgstr ""
+msgstr "Введіть припустиму IPv4-адресу."
 
-#: .\venv\Lib\site-packages\django\core\validators.py:251
-#: .\venv\Lib\site-packages\django\core\validators.py:267
+#: .\venv\Lib\site-packages\django\core\validators.py:251 .\venv\Lib\site-packages\django\core\validators.py:267
 msgid "Enter a valid IPv6 address."
-msgstr ""
+msgstr "Введіть припустиму адресу IPv6."
 
-#: .\venv\Lib\site-packages\django\core\validators.py:261
-#: .\venv\Lib\site-packages\django\core\validators.py:265
+#: .\venv\Lib\site-packages\django\core\validators.py:261 .\venv\Lib\site-packages\django\core\validators.py:265
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr ""
+msgstr "Введіть припустиму IPv4 або IPv6 адресу."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:295
 msgid "Enter only digits separated by commas."
-msgstr ""
+msgstr "Введіть лише цифри, розділених комами."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:301
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
+msgstr "Переконатися, що це значення %(limit_value)s (це %(show_value)s)."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:334
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
+msgstr "Переконатися, що це значення менше або дорівнює %(limit_value)s."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:343
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr ""
+msgstr "Переконатися, що це значення більше або дорівнює %(limit_value)s."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:353
 #, python-format
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Ensure this value has at least %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] "Переконайтеся, що у цьому значенні є принаймні %(limit_value)d символ (вона має %(show_value)d)."
+msgstr[1] "Переконайтеся, що це значення має принаймні %(limit_value)d символів (вона має %(show_value)d)."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:368
 #, python-format
-msgid ""
-"Ensure this value has at most %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at most %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Ensure this value has at most %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at most %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] "Переконайтеся, що це значення має не більше %(limit_value)d символ (вона має %(show_value)d)."
+msgstr[1] "Переконайтеся, що це значення має не більше %(limit_value)d символів (вона має %(show_value)d)."
 
-#: .\venv\Lib\site-packages\django\core\validators.py:387
-#: .\venv\Lib\site-packages\django\forms\fields.py:292
-#: .\venv\Lib\site-packages\django\forms\fields.py:327
+#: .\venv\Lib\site-packages\django\core\validators.py:387 .\venv\Lib\site-packages\django\forms\fields.py:292 .\venv\Lib\site-packages\django\forms\fields.py:327
 msgid "Enter a number."
-msgstr ""
+msgstr "Введіть число."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:389
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Переконайтеся, що в цілому не більше %(max)s цифри."
+msgstr[1] "Переконайтеся, що в цілому не більше %(max)s цифр."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:394
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Переконайтеся, що не більше %(max)s числа після коми."
+msgstr[1] "Переконайтеся, що не більше %(max)s числ після коми."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:399
 #, python-format
-msgid ""
-"Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural ""
-"Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural "Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] "Переконайтеся, що не більше %(max)s числа перед комою."
+msgstr[1] "Переконайтеся, що не більше %(max)s числ перед комою."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:461
 #, python-format
-msgid ""
-"File extension “%(extension)s” is not allowed. Allowed extensions are: "
-"%(allowed_extensions)s."
-msgstr ""
+msgid "File extension “%(extension)s” is not allowed. Allowed extensions are: %(allowed_extensions)s."
+msgstr "Розширення файла \"%(extension)s\" не дозволено. Дозволені розширення:%(allowed_extensions)s."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:513
 msgid "Null characters are not allowed."
-msgstr ""
+msgstr "Нульові символи не дозволені."
 
-#: .\venv\Lib\site-packages\django\db\models\base.py:1190
-#: .\venv\Lib\site-packages\django\forms\models.py:760
+#: .\venv\Lib\site-packages\django\db\models\base.py:1190 .\venv\Lib\site-packages\django\forms\models.py:760
 msgid "and"
-msgstr ""
+msgstr "і"
 
 #: .\venv\Lib\site-packages\django\db\models\base.py:1192
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
+msgstr "%(model_name)s з цим%(field_labels)s вже існує."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:100
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr ""
+msgstr "Значення %(value)r не є коректним вибором."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:101
 msgid "This field cannot be null."
-msgstr ""
+msgstr "Це поле не може бути нульовим."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:102
 msgid "This field cannot be blank."
-msgstr ""
+msgstr "Це поле не може бути порожнім."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:103
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
+msgstr "%(model_name)s з цим %(field_label)s вже існує."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:107
 #, python-format
-msgid ""
-"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr ""
+msgid "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr "%(field_label)s має бути унікальною для %(date_field_label)s %(lookup_type)s."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:126
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr ""
+msgstr "Поле типу:%(field_type)s"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:939
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr ""
+msgstr "\"%(value)s\" має бути або True, або False."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:940
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
+msgstr "\"%(value)s\" має бути \"True\", \"Ні\", або \"None\"."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:942
 msgid "Boolean (Either True or False)"
-msgstr ""
+msgstr "Булеве (або True або Falseі)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:983
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr ""
+msgstr "Рядок (до %(max_length)s символів)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1047
 msgid "Comma-separated integers"
-msgstr ""
+msgstr "Числа розділенні комами"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1096
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
-"format."
-msgstr ""
+msgid "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD format."
+msgstr "\"%(value)s\" має некоректний формат дати. Він має бути у форматі РРРР-ММ-ДД."
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1098
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1241
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1098 .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1241
 #, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
-"date."
-msgstr ""
+msgid "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid date."
+msgstr "\"%(value)s\" має правильний формат (РРРР-ММ-ДД), але це некоректна дата."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1101
 msgid "Date (without time)"
-msgstr ""
+msgstr "Дата (без часу)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1239
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
-msgstr ""
+msgid "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr "\"%(value)s\" має некоректний формат. Має бути в форматі  YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1243
 #, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
-msgstr ""
+msgid "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+msgstr "\"%(value)s\" має правильний формат (YYYY-MM-DD HH:MM [:ss [.uuuuuu]] [TZ]), але некоректна дата/час."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1247
 msgid "Date (with time)"
-msgstr ""
+msgstr "Дата (з часом)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1395
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr ""
+msgstr "\"%(value)s\" має бути десяткове число."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1397
 msgid "Decimal number"
-msgstr ""
+msgstr "Десяткове число"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1536
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
-msgstr ""
+msgid "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[.uuuuuu] format."
+msgstr "\"%(value)s\" має некоректний формат. Він має бути у форматі [DD] [[HH:] MM:] ss [.uuuuuu]."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1539
 msgid "Duration"
-msgstr ""
+msgstr "Тривалість"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1589
 msgid "Email address"
-msgstr ""
+msgstr "Адреса електронної пошти"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1612
 msgid "File path"
-msgstr ""
+msgstr "Шлях до файла"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1678
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr ""
+msgstr "\"%(value)s\" має бути десятковим числом."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1680
 msgid "Floating point number"
-msgstr ""
+msgstr "Число з плаваючою точкою"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1718
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr ""
+msgstr "\"%(value)s\" має бути ціле число."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1720
 msgid "Integer"
-msgstr ""
+msgstr "Ціле число"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1803
 msgid "Big (8 byte) integer"
-msgstr ""
+msgstr "Великий (8 байт) integer"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1819
 msgid "IPv4 address"
-msgstr ""
+msgstr "Адреса IPv4"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1850
 msgid "IP address"
-msgstr ""
+msgstr "IP-адреса"
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1930
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1931
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1930 .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1931
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
+msgstr "\"%(value)s\" має бути None, True або False."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1933
 msgid "Boolean (Either True, False or None)"
-msgstr ""
+msgstr "Булеве (True, False або None)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1976
 msgid "Positive big integer"
-msgstr ""
+msgstr "Додатне ціле число"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1989
 msgid "Positive integer"
-msgstr ""
+msgstr "Додатне ціле"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2002
 msgid "Positive small integer"
-msgstr ""
+msgstr "Додатне ціле число"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2016
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr ""
+msgstr "Рядок (до %(max_length)s символів)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2048
 msgid "Small integer"
-msgstr ""
+msgstr "Невелике ціле число"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2055
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2083
 #, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
-"format."
-msgstr ""
+msgid "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format."
+msgstr "\"%(value)s\" має некоректний формат. Він має бути в форматі HH:MM [:ss [.uuuuuu]]."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2085
 #, python-format
-msgid ""
-"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
-"invalid time."
-msgstr ""
+msgid "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an invalid time."
+msgstr "\"%(value)s\" має правильний формат (HH:MM [:ss [.uuuuuu]]), але некоректний формат часу."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2088
 msgid "Time"
-msgstr ""
+msgstr "Час"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2214
 msgid "URL"
@@ -401,151 +402,142 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2236
 msgid "Raw binary data"
-msgstr ""
+msgstr "Бінарні дані"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2301
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr ""
+msgstr "\"%(value)s\" не є коректним UUID."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2303
 msgid "Universally unique identifier"
-msgstr ""
+msgstr "Універсальний унікальний ідентифікатор"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\files.py:231
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\files.py:379
 msgid "Image"
-msgstr ""
+msgstr "Зображення"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\json.py:18
 msgid "A JSON object"
-msgstr ""
+msgstr "Об'єкт JSON"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\json.py:20
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "Значення має бути коректним JSON."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:790
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
+msgstr "%(model)s екземпляр з %(field)s %(value)r не існує."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:792
 msgid "Foreign Key (type determined by related field)"
-msgstr ""
+msgstr "Зовнішній ключ (тип визначається пов'язаним полем)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1045
 msgid "One-to-one relationship"
-msgstr ""
+msgstr "Зв'язок один-до-один"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1099
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr ""
+msgstr "%(from)s - %(to)s - зв'язок"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1100
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr ""
+msgstr "%(from)s - %(to)s - зв'язки"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1142
 msgid "Many-to-many relationship"
-msgstr ""
+msgstr "Зв'язок багато-до-багатоьох"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:150
 msgid ":?.!"
-msgstr ""
+msgstr ":?!"
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:54
 msgid "This field is required."
-msgstr ""
+msgstr "Це поле потрібно."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:247
 msgid "Enter a whole number."
-msgstr ""
+msgstr "Введіть ціле число."
 
-#: .\venv\Lib\site-packages\django\forms\fields.py:398
-#: .\venv\Lib\site-packages\django\forms\fields.py:1139
+#: .\venv\Lib\site-packages\django\forms\fields.py:398 .\venv\Lib\site-packages\django\forms\fields.py:1139
 msgid "Enter a valid date."
-msgstr ""
+msgstr "Введіть чинну дату."
 
-#: .\venv\Lib\site-packages\django\forms\fields.py:422
-#: .\venv\Lib\site-packages\django\forms\fields.py:1140
+#: .\venv\Lib\site-packages\django\forms\fields.py:422 .\venv\Lib\site-packages\django\forms\fields.py:1140
 msgid "Enter a valid time."
-msgstr ""
+msgstr "Введіть чинний час."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:450
 msgid "Enter a valid date/time."
-msgstr ""
+msgstr "Введіть чинну дату/час."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:484
 msgid "Enter a valid duration."
-msgstr ""
+msgstr "Введіть чинну тривалість."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:485
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr ""
+msgstr "Кількість днів має бути між {min_days} та {max_days}."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:545
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr ""
+msgstr "Не було передано жодного файла. Перевіряє тип кодування у формі."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:546
 msgid "No file was submitted."
-msgstr ""
+msgstr "Не було передано жодного файла."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:547
 msgid "The submitted file is empty."
-msgstr ""
+msgstr "Вказаний файл є порожнім."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:549
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
-msgid_plural ""
-"Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] "Переконайтеся, що ця назва файла має не більше%(max)d символів (вона має %(length)d)."
+msgstr[1] "Переконайтеся, що ця назва файла має не більше%(max)d символів (вона має %(length)d)."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:552
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
+msgstr "Будь ласка, надсилайте файл або позначте пункт Очистити, а не обидва."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:613
-msgid ""
-"Upload a valid image. The file you uploaded was either not an image or a "
-"corrupted image."
-msgstr ""
+msgid "Upload a valid image. The file you uploaded was either not an image or a corrupted image."
+msgstr "Вивантажити коректне зображення. Файл, який ви вивантажив, або не є зображенням пошкодженого зображення."
 
-#: .\venv\Lib\site-packages\django\forms\fields.py:775
-#: .\venv\Lib\site-packages\django\forms\fields.py:865
-#: .\venv\Lib\site-packages\django\forms\models.py:1296
+#: .\venv\Lib\site-packages\django\forms\fields.py:775 .\venv\Lib\site-packages\django\forms\fields.py:865 .\venv\Lib\site-packages\django\forms\models.py:1296
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr ""
+msgstr "Виберіть правильний вибір. %(value)s не є одним з доступних варіантів вибору."
 
-#: .\venv\Lib\site-packages\django\forms\fields.py:866
-#: .\venv\Lib\site-packages\django\forms\fields.py:981
-#: .\venv\Lib\site-packages\django\forms\models.py:1295
+#: .\venv\Lib\site-packages\django\forms\fields.py:866 .\venv\Lib\site-packages\django\forms\fields.py:981 .\venv\Lib\site-packages\django\forms\models.py:1295
 msgid "Enter a list of values."
-msgstr ""
+msgstr "Введіть список значень."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:982
 msgid "Enter a complete value."
-msgstr ""
+msgstr "Введіть повне значення."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:1198
 msgid "Enter a valid UUID."
-msgstr ""
+msgstr "Введіть чинний UUID."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:1228
 msgid "Enter a valid JSON."
-msgstr ""
+msgstr "Введіть чинний JSON."
 
 #. Translators: This is the default suffix added to form field labels
 #: .\venv\Lib\site-packages\django\forms\forms.py:78
@@ -555,437 +547,431 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\forms\forms.py:205
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
+msgstr "(Приховані поля%(name)s) %(error)s"
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:93
 msgid "ManagementForm data is missing or has been tampered with"
-msgstr ""
+msgstr "Дані щодо manageentForm відсутні або їх було пошковано"
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:345
 #, python-format
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Будь ласка, передайте %d або менше форм."
+msgstr[1] "Будь ласка, передайте %d або менше форм."
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:352
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Будь ласка, передайте %d або більше форм."
+msgstr[1] "Будь ласка, передайте %d або більше форм."
 
-#: .\venv\Lib\site-packages\django\forms\formsets.py:379
-#: .\venv\Lib\site-packages\django\forms\formsets.py:386
+#: .\venv\Lib\site-packages\django\forms\formsets.py:379 .\venv\Lib\site-packages\django\forms\formsets.py:386
 msgid "Order"
-msgstr ""
+msgstr "Порядок"
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:391
 msgid "Delete"
-msgstr ""
+msgstr "Видалити"
 
 #: .\venv\Lib\site-packages\django\forms\models.py:755
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr ""
+msgstr "Будь ласка, виправте дублікат даних %(field)s."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:759
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
+msgstr "Будь ласка, виправте дубльовані дані для %(field)s, які мають бути унікальними."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:765
 #, python-format
-msgid ""
-"Please correct the duplicate data for %(field_name)s which must be unique "
-"for the %(lookup)s in %(date_field)s."
-msgstr ""
+msgid "Please correct the duplicate data for %(field_name)s which must be unique for the %(lookup)s in %(date_field)s."
+msgstr "Будь ласка, виправте дублювання даних для%(field_name)s, який має бути унікальним для %(lookup)s у %(date_field)s."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:774
 msgid "Please correct the duplicate values below."
-msgstr ""
+msgstr "Будь ласка, виправте дублювання значень нижче."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1096
 msgid "The inline value did not match the parent instance."
-msgstr ""
+msgstr "Рядкове значення не відповідає батьківському екземпляру."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1180
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr ""
+msgstr "Виберіть правильний вибір. Цей вибір не є одним з доступних варіантів."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1298
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr ""
+msgstr "\"%(pk)s\" не є коректним значенням."
 
 #: .\venv\Lib\site-packages\django\forms\utils.py:167
 #, python-format
-msgid ""
-"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
-"may be ambiguous or it may not exist."
-msgstr ""
+msgid "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it may be ambiguous or it may not exist."
+msgstr "%(datetime)s неможливо інтерпретувати у часовій зоні %(current_timezone)s; може бути неоднозначний або він може не існувати."
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:398
 msgid "Clear"
-msgstr ""
+msgstr "Очистити"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:399
 msgid "Currently"
-msgstr ""
+msgstr "Поточна"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:400
 msgid "Change"
-msgstr ""
+msgstr "Змінити"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:709
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:710
 msgid "Yes"
-msgstr ""
+msgstr "Так"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:711
 msgid "No"
-msgstr ""
+msgstr "Ні"
 
 #. Translators: Please do not add spaces around commas.
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:790
 msgid "yes,no,maybe"
-msgstr ""
+msgstr "так, ні, можливо"
 
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:819
-#: .\venv\Lib\site-packages\django\template\defaultfilters.py:836
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:819 .\venv\Lib\site-packages\django\template\defaultfilters.py:836
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(size)d байт"
+msgstr[1] "%(size)d байт"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:838
 #, python-format
 msgid "%s KB"
-msgstr ""
+msgstr "%s Кб"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:840
 #, python-format
 msgid "%s MB"
-msgstr ""
+msgstr "%s МБ"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:842
 #, python-format
 msgid "%s GB"
-msgstr ""
+msgstr "%s ГБ"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:844
 #, python-format
 msgid "%s TB"
-msgstr ""
+msgstr "%s ТБ"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:846
 #, python-format
 msgid "%s PB"
-msgstr ""
+msgstr "%s ПБ"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:65
 msgid "p.m."
-msgstr ""
+msgstr "п.п."
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:66
 msgid "a.m."
-msgstr ""
+msgstr "д.п."
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:71
 msgid "PM"
-msgstr ""
+msgstr "ПП"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:72
 msgid "AM"
-msgstr ""
+msgstr "ДП"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:149
 msgid "midnight"
-msgstr ""
+msgstr "опівночі"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:151
 msgid "noon"
-msgstr ""
+msgstr "полудень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Monday"
-msgstr ""
+msgstr "Понеділок"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Tuesday"
-msgstr ""
+msgstr "Вівторок"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Wednesday"
-msgstr ""
+msgstr "Середа"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Thursday"
-msgstr ""
+msgstr "Четвер\\v"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Friday"
-msgstr ""
+msgstr "П'ятниця"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:7
 msgid "Saturday"
-msgstr ""
+msgstr "Субота"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:7
 msgid "Sunday"
-msgstr ""
+msgstr "Неділя"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Mon"
-msgstr ""
+msgstr "Пн"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Tue"
-msgstr ""
+msgstr "Вт"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Wed"
-msgstr ""
+msgstr "Ср"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Thu"
-msgstr ""
+msgstr "Чт"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Fri"
-msgstr ""
+msgstr "Пт"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:11
 msgid "Sat"
-msgstr ""
+msgstr "Сб"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:11
 msgid "Sun"
-msgstr ""
+msgstr "Нд"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "January"
-msgstr ""
+msgstr "Січень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "February"
-msgstr ""
+msgstr "Лютий"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "March"
-msgstr ""
+msgstr "Березень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "April"
-msgstr ""
+msgstr "Квітень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "May"
-msgstr ""
+msgstr "Травень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "June"
-msgstr ""
+msgstr "Червень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "July"
-msgstr ""
+msgstr "Липень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "August"
-msgstr ""
+msgstr "Серпень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "September"
-msgstr ""
+msgstr "Вересень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "October"
-msgstr ""
+msgstr "Жовтень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "November"
-msgstr ""
+msgstr "Листопад"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:16
 msgid "December"
-msgstr ""
+msgstr "Грудень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "jan"
-msgstr ""
+msgstr "січ"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "feb"
-msgstr ""
+msgstr "лют"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "mar"
-msgstr ""
+msgstr "бер"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "apr"
-msgstr ""
+msgstr "кві"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "may"
-msgstr ""
+msgstr "тра"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "jun"
-msgstr ""
+msgstr "чер"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "jul"
-msgstr ""
+msgstr "лип"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "aug"
-msgstr ""
+msgstr "сер"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "sep"
-msgstr ""
+msgstr "вер"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "oct"
-msgstr ""
+msgstr "жов"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "nov"
-msgstr ""
+msgstr "лис"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "dec"
-msgstr ""
+msgstr "гру"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:23
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr ""
+msgstr "Січ."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:24
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr ""
+msgstr "Лют."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:25
 msgctxt "abbrev. month"
 msgid "March"
-msgstr ""
+msgstr "Березень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:26
 msgctxt "abbrev. month"
 msgid "April"
-msgstr ""
+msgstr "Квітень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:27
 msgctxt "abbrev. month"
 msgid "May"
-msgstr ""
+msgstr "Травень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:28
 msgctxt "abbrev. month"
 msgid "June"
-msgstr ""
+msgstr "Червень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:29
 msgctxt "abbrev. month"
 msgid "July"
-msgstr ""
+msgstr "Липень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:30
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr ""
+msgstr "Сер."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:31
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr ""
+msgstr "Вер."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:32
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr ""
+msgstr "Жов."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:33
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr ""
+msgstr "Лис."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:34
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr ""
+msgstr "Гру."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:37
 msgctxt "alt. month"
 msgid "January"
-msgstr ""
+msgstr "Січень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:38
 msgctxt "alt. month"
 msgid "February"
-msgstr ""
+msgstr "Лютий"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:39
 msgctxt "alt. month"
 msgid "March"
-msgstr ""
+msgstr "Березень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:40
 msgctxt "alt. month"
 msgid "April"
-msgstr ""
+msgstr "Квітень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:41
 msgctxt "alt. month"
 msgid "May"
-msgstr ""
+msgstr "Травень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:42
 msgctxt "alt. month"
 msgid "June"
-msgstr ""
+msgstr "Червень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:43
 msgctxt "alt. month"
 msgid "July"
-msgstr ""
+msgstr "Липень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:44
 msgctxt "alt. month"
 msgid "August"
-msgstr ""
+msgstr "Серпень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:45
 msgctxt "alt. month"
 msgid "September"
-msgstr ""
+msgstr "Вересень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:46
 msgctxt "alt. month"
 msgid "October"
-msgstr ""
+msgstr "Жовтень"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:47
 msgctxt "alt. month"
 msgid "November"
-msgstr ""
+msgstr "Листопад"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:48
 msgctxt "alt. month"
 msgid "December"
-msgstr ""
+msgstr "Грудень"
 
 #: .\venv\Lib\site-packages\django\utils\ipv6.py:8
 msgid "This is not a valid IPv6 address."
-msgstr ""
+msgstr "Це не коректна адреса IPv6."
 
 #: .\venv\Lib\site-packages\django\utils\text.py:70
 #, python-format
@@ -995,11 +981,10 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\utils\text.py:236
 msgid "or"
-msgstr ""
+msgstr "або"
 
 #. Translators: This string is used as a separator between list elements
-#: .\venv\Lib\site-packages\django\utils\text.py:255
-#: .\venv\Lib\site-packages\django\utils\timesince.py:83
+#: .\venv\Lib\site-packages\django\utils\text.py:255 .\venv\Lib\site-packages\django\utils\timesince.py:83
 msgid ", "
 msgstr ""
 
@@ -1007,210 +992,182 @@ msgstr ""
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d рік"
+msgstr[1] "%d років"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:10
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d місяць"
+msgstr[1] "%d місяців"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:11
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d тиждень"
+msgstr[1] "%d тижнів"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:12
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d день"
+msgstr[1] "%d днів"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:13
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d година"
+msgstr[1] "%d годин"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:14
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d хвилини"
+msgstr[1] "%d хвилин"
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:110
 msgid "Forbidden"
-msgstr ""
+msgstr "Заборонено"
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:111
 msgid "CSRF verification failed. Request aborted."
-msgstr ""
+msgstr "Спроба перевірки CSRF зазнала невдачі. Запит перервано."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:115
-msgid ""
-"You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your Web browser, but none was sent. This header is "
-"required for security reasons, to ensure that your browser is not being "
-"hijacked by third parties."
-msgstr ""
+msgid "You are seeing this message because this HTTPS site requires a “Referer header” to be sent by your Web browser, but none was sent. This header is required for security reasons, to ensure that your browser is not being hijacked by third parties."
+msgstr "Ви бачите це повідомлення, оскільки цей сайт HTTPS вимагає, щоб заголовок \"Referer\" був надісланий вашим веб-переглядом, але нічого не було надіслано. Цей заголовок потрібен з міркувань безпеки, щоб переконатися, що ваш браузер не викрадається третіми сторонами."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:120
-msgid ""
-"If you have configured your browser to disable “Referer” headers, please re-"
-"enable them, at least for this site, or for HTTPS connections, or for “same-"
-"origin” requests."
-msgstr ""
+msgid "If you have configured your browser to disable “Referer” headers, please re-enable them, at least for this site, or for HTTPS connections, or for “same-origin” requests."
+msgstr "Якщо ви налаштували ваш переглядач, щоб вимкнути заголовки \"Referer\", будь ласка, увімкніть їх, принаймні, для цього сайта, або для з ' єднань HTTPS, або для запитів \"same-Origin\"."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:124
-msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
-msgstr ""
+msgid "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or including the “Referrer-Policy: no-referrer” header, please remove them. The CSRF protection requires the “Referer” header to do strict referer checking. If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer\" …> for links to third-party sites."
+msgstr "Якщо ви користуєтеся тегом <meta name=\"referrer\" content=\"no-referrer\"> або разом з заголовком \"Referrer-Policy: no-referer\", будь ласка, вилучіть їх. Захист CSRF вимагає заголовок \"Referer\", щоб зробити строгий перевірку посилань. Якщо ви турбуєтеся про конфіденційність, використовуйте альтернативи як <a rel = \"noferrer \" ... > для посилань на сайти сторонніх сторін."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:132
-msgid ""
-"You are seeing this message because this site requires a CSRF cookie when "
-"submitting forms. This cookie is required for security reasons, to ensure "
-"that your browser is not being hijacked by third parties."
-msgstr ""
+msgid "You are seeing this message because this site requires a CSRF cookie when submitting forms. This cookie is required for security reasons, to ensure that your browser is not being hijacked by third parties."
+msgstr "Ви бачите це повідомлення, тому що цей сайт вимагає від куки CSRF при подаванні форм. Цей кук потрібен з міркувань безпеки, щоб переконатися, що ваш браузер не викрадається третіми сторонами."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:137
-msgid ""
-"If you have configured your browser to disable cookies, please re-enable "
-"them, at least for this site, or for “same-origin” requests."
-msgstr ""
+msgid "If you have configured your browser to disable cookies, please re-enable them, at least for this site, or for “same-origin” requests."
+msgstr "Якщо ви налаштували ваш браузер, щоб вимкнути куки, будь ласка, повторно увімкніть їх, принаймні для цього сайта, або за запити \"одного з\" на початку \"."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:142
 msgid "More information is available with DEBUG=True."
-msgstr ""
+msgstr "Більше інформації доступна з DEBUG=True."
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:41
 msgid "No year specified"
-msgstr ""
+msgstr "Не вказано року"
 
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:61
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:111
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:208
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:61 .\venv\Lib\site-packages\django\views\generic\dates.py:111 .\venv\Lib\site-packages\django\views\generic\dates.py:208
 msgid "Date out of range"
-msgstr ""
+msgstr "Дата виходу з діапазону"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:90
 msgid "No month specified"
-msgstr ""
+msgstr "Не вказано місяця"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:142
 msgid "No day specified"
-msgstr ""
+msgstr "Не вказано жодного дня"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:188
 msgid "No week specified"
-msgstr ""
+msgstr "Не вказано тижня"
 
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:338
-#: .\venv\Lib\site-packages\django\views\generic\dates.py:367
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:338 .\venv\Lib\site-packages\django\views\generic\dates.py:367
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr ""
+msgstr "Відсутні %(verbose_name_plural)s"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:589
 #, python-format
-msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
-msgstr ""
+msgid "Future %(verbose_name_plural)s not available because %(class_name)s.allow_future is False."
+msgstr "Майбутнє %(verbose_name_plural)s недоступний, оскільки %(class_name)s.allow_futer має значення False."
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:623
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr ""
+msgstr "Некоректна рядок дати \"%(datestr)s\" для формату \"%(format)s\""
 
 #: .\venv\Lib\site-packages\django\views\generic\detail.py:54
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr ""
+msgstr "Не знайдено %(verbose_name)s, що відповідає запиту"
 
 #: .\venv\Lib\site-packages\django\views\generic\list.py:67
 msgid "Page is not “last”, nor can it be converted to an int."
-msgstr ""
+msgstr "Сторінка не \"остання\", і не може бути перетворена на int."
 
 #: .\venv\Lib\site-packages\django\views\generic\list.py:72
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr ""
+msgstr "Некоректна сторінка (%(page_number)s): %(message)s"
 
 #: .\venv\Lib\site-packages\django\views\generic\list.py:154
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr ""
+msgstr "Порожній список і \"%(class_name)s.allow_Empty\" є False."
 
 #: .\venv\Lib\site-packages\django\views\static.py:40
 msgid "Directory indexes are not allowed here."
-msgstr ""
+msgstr "Тут не можна використовувати індекси каталогів."
 
 #: .\venv\Lib\site-packages\django\views\static.py:42
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr ""
+msgstr "\"%(path)s\" не існує"
 
 #: .\venv\Lib\site-packages\django\views\static.py:80
 #, python-format
 msgid "Index of %(directory)s"
-msgstr ""
+msgstr "Індекс %(directory)s"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
 msgid "Django: the Web framework for perfectionists with deadlines."
-msgstr ""
+msgstr "Django: веб-фреймворк для швидкої роботи."
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:346
 #, python-format
-msgid ""
-"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
-msgstr ""
+msgid "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr "Перегляд <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">нотатки про випуск</a> для Django %(version)s"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:368
 msgid "The install worked successfully! Congratulations!"
-msgstr ""
+msgstr "Встановлення успішно працювало! Мої вітання!"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:369
 #, python-format
-msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
-msgstr ""
+msgid "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not configured any URLs."
+msgstr "Ви бачите цю сторінку, оскільки <a href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener\">DEBUG = True</a> знаходиться у вашому файлі налаштувань, і ви не налаштували жодного URL."
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:384
 msgid "Django Documentation"
-msgstr ""
+msgstr "Документація Django"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:385
 msgid "Topics, references, &amp; how-to’s"
-msgstr ""
+msgstr "Теми, посилання та рекомендації"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:396
 msgid "Tutorial: A Polling App"
-msgstr ""
+msgstr "Навчальний посібник: Додаток для голосування"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:397
 msgid "Get started with Django"
-msgstr ""
+msgstr "Початок роботи з Django"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:408
 msgid "Django Community"
-msgstr ""
+msgstr "Спільнота Джанго"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:409
 msgid "Connect, get help, or contribute"
-msgstr ""
+msgstr "Підключення, отримання довідки або вносить свій внесок"
