@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+{% block content%}
+<center>
+	<form action="" method="POST" class="w3-container w3-card w3-margin w3-padding" style="width:300px;">
+		{% csrf_token %}
+		<label>Логін</label>
+		{{ form.username }}
+		<label>Пароль</label>
+		{{ form.password }}
+		<button type="submit" class="w3-button w3-black w3-block w3-margin-top">Увійти</button>
+	</form>
+</center>
+{% endblock %}

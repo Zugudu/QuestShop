@@ -1,33 +1,33 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="ua">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="css/master.css">
-	<link rel="stylesheet" media="screen and (max-device-width: 768px)" href="css/mob.css">
+	<link rel="stylesheet" href="{% static 'core/css/master.css' %}">
+	<link rel="stylesheet" media="screen and (max-device-width: 768px)" href="{% static 'core/css/mob.css' %}">
 	<title>Quest Shop</title>
 </head>
 <body>
 	<div class="w3-bar w3-black w3-margin-bottom">
+		{% if user.is_authenticated %}
+			<span class="w3-bar-item">Рахунок: {{ user.money }} <i class="fas fa-coins"></i></span>
+		{% endif %}
+
 		<label for="menu" class="w3-bar-item w3-button w3-right" id="menu-label">
 			<i class="fas fa-bars"></i>
 		</label>
 		<input type="checkbox" id="menu">
 		<div id="menu-content">
-			<a href="" class="w3-bar-item w3-button">Увійти <i class="fas fa-sign-in-alt"></i></a>
+			{% if user.is_authenticated %}
+				<a href="{% url 'logout' %}" class="w3-bar-item w3-button">Вийти <i class="fas fa-door-open"></i></a>
+			{% else %}
+				<a href="{% url 'login' %}" class="w3-bar-item w3-button">Увійти <i class="fas fa-sign-in-alt"></i></a>
+			{% endif %}
 		</div>
 	</div>
-	<center>
-		<form action="" class="w3-container w3-card w3-margin w3-padding" style="width:300px;">
-			<label>Логін</label>
-			<input type="text" class="w3-input" placeholder="Нік на сервері">
-			<label>Пароль</label>
-			<input type="password" class="w3-input" placeholder="Пароль від магазину">
-			<button type="submit" class="w3-button w3-black w3-block w3-margin-top">Увійти</button>
-		</form>
-	</center>
-
+	{% block content %}{% endblock content %}
 	<script defer src="https://use.fontawesome.com/releases/v5.15.2/js/solid.js" integrity="sha384-rKdfCFMYG2O/K+5WQDPmcKngEtAvqyIxYkazidXjp48yEiCcl//F6lxZ9cZ8MhM+" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.15.2/js/fontawesome.js" integrity="sha384-PIP1h/CVyNo59Pr+vM6s86Zkm82HEv890eKMTpB5eqJZFZQwZuMwf73Sy5SzVrK8" crossorigin="anonymous"></script>
 </body>
